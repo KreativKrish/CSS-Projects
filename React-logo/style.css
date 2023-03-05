@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+
+}
+
+.bg {
+    /* height: 25rem; */
+    /* width: 25rem; */
+    background-color: black;
+    border-radius: 75px;
+}
+
+.react {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: roll 15s linear 0.5s infinite;
+}
+
+.ellipse {
+    position: absolute;
+    height: 12vw;
+    width: 4vw;
+    border-radius: 50%;
+    border: 0.625vw solid #61dbfb;
+}
+
+.ball {
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background-color: #61dbfb;
+}
+
+.e1 {
+    transform: rotate(30deg);
+}
+
+.e2 {
+    transform: rotate(-30deg);
+}
+
+.e3 {
+    transform: rotate(90deg);
+}
+
+@keyframes roll {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

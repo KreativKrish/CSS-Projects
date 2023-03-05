@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: azure;
+}
+
+.youtube-logo {
+	background-color: #FF0000;
+	width: 300px;
+	height: 200px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.playBtn {
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 90px solid white;
+}
